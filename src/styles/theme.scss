@@ -1,0 +1,52 @@
+.el-menu--dark{
+  background-color: rgb(50, 60, 87);
+}
+
+.el-menu--dark .el-menu-item, .el-menu--dark .el-submenu__title{
+  color: rgb(191, 200, 217);
+}
+
+.el-menu--dark .el-menu-item:hover, .el-menu--dark .el-submenu__title:hover{
+  background-color: rgb(72, 82, 106);
+}
+
+.el-menu--dark .el-submenu .el-menu{
+  background-color: rgb(31, 41, 61);
+}
+
+.el-menu--dark .el-submenu .el-menu .el-menu-item:hover{
+  background-color: rgb(72, 82, 106);
+}
+
+.el-menu--primary{
+  background-color: rgb(61, 147, 255);
+}
+.el-menu--primary .el-menu-item, .el-menu--primary .el-submenu__title{
+  color:rgb(220,242,248);
+}
+.el-menu--primary .el-menu-item:hover, .el-menu--dark .el-submenu__title:hover{
+  background-color: rgb(22,170,216);
+}
+
+.el-menu--primary .el-submenu .el-menu{
+  background-color: rgb(61, 147, 255);
+}
+
+.el-menu--primary .el-submenu .el-menu .el-menu-item:hover{
+  background-color: rgb(22,170,216);
+}
+.el-menu--success {
+  background-color: rgb(95, 202, 113);
+}
+
+.el-menu--warn {
+  background-color: rgb(247, 197, 115);
+}
+
+.el-menu--danger {
+  background-color: rgb(231, 107, 101);
+}
+
+.el-menu--info {
+  background-color: rgb(135, 141, 153);
+}

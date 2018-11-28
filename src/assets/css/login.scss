@@ -1,0 +1,347 @@
+
+.header{
+  background: #ffffff;
+  .header_inner{
+    width:1220px;
+    padding:0 40px;
+    height:88px;
+    margin: 0 auto;
+    .header_logo{
+      display: inline-block;
+      width:200px;
+      float: left;
+      height:46px;
+      margin-top:21px;
+      background-image: url('../../../static/img/login_logo.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .header_text{
+      float: right;
+      padding-top:42px;
+      height:88px;
+      font-size:14px;
+      color:#666666;
+    }
+  }
+}
+.top{
+  height:385px;
+  padding:0 1px;
+  .banner{
+    position: relative;
+    margin:0 auto;
+    width:1440px;
+    height:385px;
+    img{
+      height:385px;
+    }
+    .login{
+      width:305px;
+      height:320px;
+      background: #ffffff;
+      position: absolute;
+      right:150px;
+      top:32px;
+      padding:26px;
+      .login_error{
+        font-size: 12px;
+        margin-top:5px;
+        height:20px;
+        line-height:1.452;
+        text-align: left;
+        color:#e15f63;
+        .err_tips{
+          vertical-align:middle;
+        }
+      }
+      .login_title{
+        font-size:18px;
+        color:#333333;
+        margin-bottom:10px;
+        text-align: center;
+      }
+      .login_select{
+        border:1px solid #e3e3e3;
+        height:46px;
+        border-radius: 5px;
+        margin-top:8px;
+        margin-bottom:50px;
+        background-color:#f3f3f3;
+        //select{
+        //  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+        //  border: none;
+        //  /*很关键：将默认的select选择框样式清除*/
+        //  appearance:none;
+        //  -moz-appearance:none;
+        //  -webkit-appearance:none;
+        //  /*在选择框的最右侧中间显示小箭头图片*/
+        //  background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+        //  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+        //  outline:none;
+        //  height:44px;
+        //  width:100%;
+        //  >option{
+        //    text-align: center;
+        //    height:30px;
+        //    width:200px;
+        //  }
+        //  &::-ms-expand { display: none; }
+        //}
+      }
+      .login_box{
+        border:1px solid #e3e3e3;
+        height:46px;
+        border-radius: 5px;
+        margin-bottom:15px;
+        background-color:#f3f3f3;
+        padding:0 12px;
+        &.err_box{
+          border-color: #EB3324;
+        }
+
+        .login_icon{
+          display: inline-block;
+          width:20px;
+          height:20px;
+          margin:13px 0;
+          background-size:cover;
+          background-repeat: no-repeat;
+        }
+        .llock{
+          background-image: url("../img/login_lock.png");
+        }
+        .lphone{
+          background-image: url("../img/login_phone.png");
+        }
+        .login_line{
+          display: inline-block;
+          height:18px;
+          margin: 13px 10px;
+          border-left:1px solid #e3e3e3;
+          border-right:1px solid #e3e3e3;
+          vertical-align: top;
+        }
+        .login_input{
+          display: inline-block;
+          vertical-align: top;
+          width:160px;
+          input{
+            height:44px;
+            padding:12px 0;
+            width:160px;
+            background-color:transparent;
+            border:none;
+            outline:none;
+
+          }
+        }
+
+      }
+      .login_item{
+        margin-bottom:15px;
+        padding-left:2px;
+        height:24px;
+        .rem_pwd{
+          float: left;
+        }
+        .forget_pwd{
+          float: right;
+          a{
+            color:#999999;
+          }
+        }
+      }
+      .login_btn{
+        button{
+          height:46px;
+          line-height:1.452;
+          color:#ffffff;
+          font-size:14px;
+          border:none;
+          background-color: #3b93ff;
+          width: 100%;
+          border-radius: 5px;
+        }
+      }
+    }
+    .carousel-control{
+      display: none;
+    }
+  }
+
+}
+.main{
+  .zhuli{
+    background: #f6f6f6;
+    padding-top:70px;
+    padding-bottom:70px;
+    .zl_title{
+      font-size: 24px;
+      color:#333;
+      height:34px;
+      margin-bottom:75px;
+      text-align: center;
+      .zlt{
+        display: inline-block;
+        margin:0 24px;
+      }
+    }
+    .zl_box{
+      .zl_item{
+        display: inline-block;
+        width:248px;
+        padding:30px 0;
+        margin-right:45px;
+        background-color: #ffffff;
+        height:357px;
+        vertical-align: top;
+        .zl_img{
+          width:200px;
+          height:180px;
+          background-repeat: no-repeat;
+          margin:0 auto;
+          background-size: cover;
+          &.newyy{
+            background-image: url("../img/login_newyy.png");
+          }
+          &.o2o{
+            background-image: url("../img/login_02020.png");
+          }
+          &.newplat{
+            background-image: url("../img/login_newplat.png");
+          }
+          &.newmanager{
+            background-image: url("../img/login_newmanager.png");
+          }
+        }
+        .zl_name{
+          font-size: 20px;
+          color:#333;
+          text-align: center;
+          margin:20px 0;
+        }
+        .zl_text{
+          padding:0 30px;
+          color:#acacac;
+          font-size: 16px;
+          height:30px;
+          line-height:1.452;
+        }
+      }
+    }
+  }
+  .shiy{
+    background-color: #ffffff;
+    padding-top:70px;
+    padding-bottom:150px;
+    .sy_title{
+      font-size: 24px;
+      color:#333;
+      height:34px;
+      margin-bottom:125px;
+      text-align: center;
+      .syt{
+        display: inline-block;
+        margin:0 24px;
+      }
+    }
+    .sy_box{
+      .sy_item{
+        display: inline-block;
+        vertical-align: top;
+        width:80px;
+        height:120px;
+        margin-right:67px;
+        .sy_img{
+          height:80px;
+          width:80px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          &.t1{
+            background-image: url("../img/login_type_1.png");
+          }
+          &.t2{
+            background-image: url("../img/login_type_2.png");
+          }
+          &.t3{
+            background-image: url("../img/login_type_3.png");
+          }
+          &.t4{
+            background-image: url("../img/login_type_4.png");
+          }
+          &.t5{
+            background-image: url("../img/login_type_5.png");
+          }
+          &.t6{
+            background-image: url("../img/login_type_6.png");
+          }
+          &.t7{
+            background-image: url("../img/login_type_7.png");
+          }
+          &.t8{
+            background-image: url("../img/login_type_8.png");
+          }
+        }
+        .sy_name{
+          color:#666;
+          font-size:18px;
+          height:32px;
+          line-height:32px;
+          width:80px;
+          padding:0 4px;
+        }
+      }
+    }
+
+  }
+
+  .tline{
+    display: inline-block;
+    width:32px;
+    border-top:1px solid #c5c5c5;
+    border-bottom:1px solid #c5c5c5;
+    margin-top:15px;
+    vertical-align: top;
+  }
+}
+.foot{
+  height:80px;
+  padding:10px 0 15px 0;
+  text-align: center;
+  .links{
+    list-style: none;
+    .links_item{
+      display: inline-block;
+      width:87px;
+      height:16px;
+      font-size: 14px;
+      line-height:16px;
+      border-right:1px solid #bcbcbc;
+      &:last-child{
+        border-right-width: 0;
+      }
+      a{
+        color:#bcbcbc;
+      }
+    }
+  }
+  .copyright{
+    height:36px;
+    line-height:1.452;
+    color:#bcbcbc;
+  }
+}
+.w1140{
+  width:1140px;
+  margin:0 auto;
+}
+.no-margins{
+  margin:0 !important;
+}
+input::-webkit-input-placeholder{ color:#dddddd;}
+input:-moz-placeholder{ color:#dddddd;}
+input::-moz-placeholder{ color:#dddddd;}
+input:-ms-input-placeholder{
+  color:#dddddd;
+}
